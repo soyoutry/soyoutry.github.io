@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>YT PARROT</title><meta name="description"><meta name="author" content="Terry Shi"><meta name="copyright" content="Terry Shi"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://yoursite.com/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="YT PARROT"><meta property="og:url" content="http://yoursite.com/"><meta property="og:site_name" content="YT PARROT"><meta property="og:description"><meta property="og:image" content="http://yoursite.com/img/avatar.png"><meta property="article:published_time" content="2020-07-16T10:25:45.692Z"><meta property="article:modified_time" content="2020-07-16T10:25:45.692Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>YT PARROT</title><meta name="description"><meta name="author" content="Terry Shi"><meta name="copyright" content="Terry Shi"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://yoursite.com/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="YT PARROT"><meta property="og:url" content="http://yoursite.com/"><meta property="og:site_name" content="YT PARROT"><meta property="og:description"><meta property="og:image" content="http://yoursite.com/img/avatar.png"><meta property="article:published_time" content="2020-07-16T10:30:28.400Z"><meta property="article:modified_time" content="2020-07-16T10:30:28.400Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
   document.documentElement.setAttribute('data-theme', 'dark')
   if (document.querySelector('meta[name="theme-color"]') !== null) {
     document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
@@ -106,26 +106,38 @@ if (autoChangeMode === '1') {
 12git config --global user.name &quot;yourgithubname&quot;git config --global user.email &quot;yourgithubemail&quot;
 
 
-设置ssh key
-
-12345ssh-keygen -t rsa -C &quot;youremail&quot;#生成后填到github和coding上（有coding平台的话）#验证是否成功ssh -T git@github.comssh -T git@git.coding.net #(有coding平台的话)
-
-
 安装nodejs
 
-12sudo apt-get install nodejssudo apt-get install npm
-
-
 安装hexo  
+1cnpm install
 
-1sudo npm install hexo-cli -g
+
 
 但是已经不需要初始化了，
 直接在任意文件夹下，
 1git clone git@………………
 
 然后进入克隆到的文件夹：
-1 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/07/16/java%E4%B8%AD%E5%86%85%E5%AD%98/" title="Java中的内存">     <img class="post_bg" data-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java中的内存"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/16/java%E4%B8%AD%E5%86%85%E5%AD%98/" title="Java中的内存">Java中的内存</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-07-16 18:20:35"><i class="far fa-calendar-alt"></i>2020-07-16</time></div><div class="content">Java的内存分为5个部分：
+123cd xxx.github.ionpm installnpm install hexo-deployer-git --save
+
+生成，部署：
+12hexo ghexo d
+
+
+
+然后就可以开始写你的新博客了
+1hexo new newpage
+
+
+
+Tips:
+
+不要忘了，每次写完最好都把源文件上传一下
+
+123git add .git commit –m &quot;xxxx&quot;git push
+
+
+如果是在已经编辑过的电脑上，已经有clone文 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/07/16/java%E4%B8%AD%E5%86%85%E5%AD%98/" title="Java中的内存">     <img class="post_bg" data-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java中的内存"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/16/java%E4%B8%AD%E5%86%85%E5%AD%98/" title="Java中的内存">Java中的内存</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-07-16 18:20:35"><i class="far fa-calendar-alt"></i>2020-07-16</time></div><div class="content">Java的内存分为5个部分：
 
 栈(Stack)：存放方法中的局部变量
 
