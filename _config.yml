@@ -4,16 +4,16 @@
 
 # Site
 title: YT PARROT
-subtitle: ''
+subtitle: 'Keep learning'
 description: ''
-keywords:
+keywords: 
 author: Terry Shi
-language: en
-timezone: ''
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://soyoutry.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

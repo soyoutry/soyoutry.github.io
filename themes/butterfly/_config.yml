@@ -36,8 +36,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/xxxxx || Github
-  fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/soyoutry || Github
+  fas fa-envelope: mailto:shiyuntian@126.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -86,16 +86,15 @@ favicon: /img/favicon.png
 
 # Avatar (头像)
 avatar:
-  img: /img/avatar.png
+  img: /img/avatar.JPG
   effect: false
 
 # the banner image of home page
 index_img:
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-# https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
-# https://i.loli.net/2020/05/01/IuWi8QbHvzjlOPw.jpg
+default_top_img: https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+
 # the banner image of archive page
 archive_img:
 
@@ -121,10 +120,9 @@ cover:
   archives_enable: true
   # the position of cover in home page (封面显示的位置)
   # left/right/both
-  position: both
+  position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
-  default_cover: 
-    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+  default_cover: https://images.pexels.com/photos/4065406/pexels-photo-4065406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
